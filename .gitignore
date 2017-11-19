@@ -1,0 +1,5 @@
+node_modules/*
+logs/*
+client_secret.json
+credentials.json
+.env

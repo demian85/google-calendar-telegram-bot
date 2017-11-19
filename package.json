@@ -1,0 +1,23 @@
+{
+  "name": "calendar-telegram-bot",
+  "version": "1.1.0",
+  "description": "Google Calendar Telegram Bot",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "google-auth-library": "^0.11.0",
+    "googleapis": "^22.2.0",
+    "moment": "^2.11.2",
+    "mongodb": "^2.1.7",
+    "node-telegram-bot-api": "^0.29.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Demian Andres Rodriguez <demian85@gmail.com>",
+  "license": "ISC"
+}
